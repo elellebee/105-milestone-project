@@ -23,7 +23,10 @@ h1{
 h2{
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
-    color: #fa0075
+    color: #fa0075;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
 }
 
 
@@ -42,6 +45,7 @@ h2{
 .third-width{
     width: 400px;
     margin: 0 auto;
+    float: left;
 }
 
 header{
@@ -51,15 +55,16 @@ header{
     background-position: center bottom; 
 }
 
-.portfolio{
+#portfolio{
     height: 1550px;
+    background-color: #1f202b;
 }
 
-.about{
+#about{
     height: 550px;
 }
 
-.contact{
+#contact{
     height: 400px;
 }
 
@@ -100,4 +105,72 @@ color: #ffffff;
 li a{
     padding: 0 45px;
     text-align: right;
+}
+
+/*****Portfolio Section*****/
+#portfolio{
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #1f202b;
+    background-size: cover;
+}
+
+#portfolio-heading{
+    height: 200px;
+}
+
+#portfolio .half-width{
+    float: left;
+    height: 450px;
+}
+
+#portfolio p{
+    color: #ffffff;
+    background-color: #1f202b;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****About Section*****/
+
+#about{
+    background: url("../img/about-me.png");
+}
+
+#about .half-width{
+    float: left;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****Footer Section*****/
+
+footer{
+    background: #1f202b;
+}
+
+#contact .full-width .half-width{
+    float: left;
+
 }
