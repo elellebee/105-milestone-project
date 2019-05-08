@@ -1,0 +1,105 @@
+/****FONTS TO USE:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Code Pro', monospace;*****/
+
+/*****BASE STYLES*****/
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.div-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+}
+
+h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    color: #fa0075
+}
+
+
+/*****GRID*****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.third-width{
+    width: 400px;
+    margin: 0 auto;
+}
+
+header{
+    height: 800px;
+
+    background: #1f202b url("../img/hero-background.png");
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    
+
+}
+
+.portfolio{
+    height: 1550px;
+}
+
+.about{
+    height: 550px;
+}
+
+.contact{
+    height: 400px;
+}
+
+/*****HEADER SECTION*****/
+
+header p{
+    text-align: left;
+    display: inline-block;
+    padding: 0 25px 25px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+
+header nav{
+    float: right;
+
+}
+
+header nav ul {
+	margin: 0px;
+    padding: 25px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a{
+text-decoration:none;
+font-family:'Montserrat', sans-serif;
+font-size: 30px;
+color: #ffffff;
+}
+
+li a{
+    padding: 0 45px;
+    text-align: right;
+}
