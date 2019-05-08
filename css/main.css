@@ -46,12 +46,9 @@ h2{
 
 header{
     height: 800px;
-
     background: #1f202b url("../img/hero-background.png");
     background-repeat: no-repeat;
     background-position: center bottom; 
-    
-
 }
 
 .portfolio{
@@ -71,16 +68,17 @@ header{
 header p{
     text-align: left;
     display: inline-block;
-    padding: 0 25px 25px;
+    padding:  25px 25px;
     font-family:'Montserrat', sans-serif;
     font-size: 30px;
     color: #ffffff;
+    margin: 0px;
+
     
 }
 
 header nav{
     float: right;
-
 }
 
 header nav ul {
