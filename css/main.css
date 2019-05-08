@@ -18,6 +18,13 @@ p{
 h1{
     font-family: 'Source Code Pro', monospace;
     font-size: 72px;
+    margin: 0;
+    padding-top: 300px;
+    color: #ffffff;
+}
+
+span{
+    color: #fa0075;
 }
 
 h2{
@@ -26,7 +33,8 @@ h2{
     color: #fa0075;
     text-align: center;
     margin: 0;
-    padding: 25px 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 
@@ -153,12 +161,13 @@ li a{
     clear: both;
 }
 
+#about h2{
+    padding-bottom: 70px;
+}
 
-
-
-
-
-
+#about p{
+    margin: 0 0 25px;
+}
 
 
 
@@ -172,5 +181,39 @@ footer{
 
 #contact .full-width .half-width{
     float: left;
-
 }
+
+footer h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+
+#social{
+    padding-left: 40px;
+}
+
+footer ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+footer li {
+    float: left;
+  }
+
+footer a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  .copyright p{
+      color: #ffffff;
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      
+  }
